@@ -1,0 +1,51 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css"
+
+</head>
+
+
+<body>
+<body style="background-color:grey">
+
+  <center> <font size=15>
+  <table>
+  <image src="Ignacio Salim image.png">
+
+<head>
+
+  <tr>
+  <td> <tg bgcolor= "white"> <font color=white> <a href="index.html"> Home </a> </td>
+  <td> <tg bgcolor= "red"> <font color=blue> <a href="Aboutme.html"> About Me </a> </td>
+  <td> <tg bgcolor= "white"> <font color=white> <a href="Project page.html"> Project Page </a> </td>
+  <td> <tg bgcolor= "white"> <font color=white> <a href="Contact me.html"> Contact Me </a> </td>
+  </tr>
+  </center>
+  <br>
+
+</head>
+
+<body background= "wood.jpg">
+</body>
+
+
+<body onload="startTime();">
+<img id="img1" />
+<script>
+var imgArray = new Array("Excelsior.jpg","Excelsior1.jpg");
+var imgCount = 0;
+function startTime() {
+    if(imgCount == imgArray.length) {
+        imgCount = 0;
+    }
+    document.getElementById("img1").src = imgArray[imgCount];
+    imgCount++;
+    setTimeout("startTime()", 5000);
+}
+</script>
+<br> <br> <br> <br> <br> <br> 
+
+
+</html>
