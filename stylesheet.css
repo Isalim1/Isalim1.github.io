@@ -17,7 +17,7 @@
     float:left;
     padding:2px;
     margin:50px;
-    border: 15px solid black;
+    border: 15px none;
 
 }
 
@@ -38,7 +38,12 @@ a:link, a:visited {
     text-decoration: none;
     text-transform: uppercase;
 }
-a:hover, a:active   { background-color: #FFA500;
+a:hover, a:active   { background-color: #00BFFF;
 }
 
 p { text-align: center }
+
+
+body {
+  background-image:wood.jpg
+}
