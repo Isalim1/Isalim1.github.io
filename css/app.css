@@ -50,7 +50,7 @@ margin: 0 auto;
 
 
 }
-*******/ 
+*******/
 
 /********* Nav-Desktop **************/
 
@@ -96,6 +96,13 @@ background-image: url("../images/footer_lodyas.png");
 .hero p {
   color: rbga(255,255,255,0.8);
 width: 70%;
+}
+
+h1 {
+color: white;
+}
+p {
+color: white;
 }
 
 
