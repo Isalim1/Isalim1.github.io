@@ -59,9 +59,33 @@
 </nav>
 <!-- Hero Section -->
 
-<section class="hero">
+<section class="hero2">
 <div class="wrap">
-<h1> Welcome To Foundation </h1>
+
+
+
+</body>
+<center>
+<body onload="startTime();">
+<img id="img1" />
+<script>
+var imgArray = new Array("images/1.jpg","images/2.jpg","images/gtl.jpg","images/eac.jpg","images/eac1.jpg");
+var imgCount = 0;
+function startTime() {
+    if(imgCount == imgArray.length) {
+        imgCount = 0;
+    }
+    document.getElementById("img1").src = imgArray[imgCount];
+    imgCount++;
+    setTimeout("startTime()", 5000);
+}
+</script>
+
+
+</center
+
+
+
 
 <p>    </p>
 
