@@ -46,14 +46,26 @@
 
 
   <div class="top-bar-right">
-    <ul class="menu menu-desktop">
+    <ul class="dropdown menu" data-dropdown-menu>
+
       <li><a href="aboutme.html">About Me</a></li>
+
+      <li>
+        <a href="#">Experience</a>
+
+        <ul class="menu">
+          <li><a href="robotics.html">Robotics</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="enter.html">Entrepreneurship</a></li>
+          <!-- ... -->
+        </ul>
+      </li>
+
       <li><a href="Education.html">Education</a></li>
-      <li><a href="Expirience.html">Experience</a></li>
       <li><a href="contactme.html">Contact Me</a></li>
 
-
     </ul>
+
   </div>
   </div>
 </nav>
@@ -69,7 +81,7 @@
 <body onload="startTime();">
 <img id="img1" />
 <script>
-var imgArray = new Array("images/1.jpg","images/2.jpg","images/gtl.jpg","images/eac.jpg","images/eac1.jpg");
+var imgArray = new Array("images/gt1.jpg","images/2.jpg","images/gtl.jpg","images/eac.jpg","images/eac1.jpg");
 var imgCount = 0;
 function startTime() {
     if(imgCount == imgArray.length) {
@@ -99,21 +111,37 @@ function startTime() {
 
 <!-- Main Section -->
 <section class="main">
-  <div class="wrap row">
+
 <div class="small-12 medium-6 column">
-  <h1> Main </h1>
+  <h1> Interests </h1>
   <hr>
-  <p> more about iggy...... </p>
+  <p2>
+
+
+
+
+
+  </p2>
      </div>
 
      <div class="small-12 medium-6 column">
-       <h1> Second part of me </h1>
+       <h1> Skills </h1>
        <hr>
-       <p> hello world </p>
+       <p2> <ul>
+
+              <li> Experienced project manager and group leader </li>
+              <li>Intermediate In Html and CSS </li>
+              <li>Advanced in many block based programming platforms including lego mondstorms and scratch  </li>
+              <li>Advanced in Microsoft Word, Excel, Powerpoint, and other record keeping tools</li>
+              <li>Advanced in the Arabic language as well as proficient in the English language</li>
+              <li>Basic understanding of Networking and the OSI model </li>
+
+
+        </p>
      </div>
  </section>
 
-
+</p2>
 
 
 
