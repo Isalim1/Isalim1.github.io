@@ -80,23 +80,23 @@
 
 </body>
 <center>
-<body onload="startTime();">
-<img id="img1" />
-<script>
-var imgArray = new Array("images/3.jpg","images/4.jpg","images/8.jpg",);
-var imgCount = 0;
-function startTime() {
-    if(imgCount == imgArray.length) {
-        imgCount = 0;
-    }
-    document.getElementById("img1").src = imgArray[imgCount];
-    imgCount++;
-    setTimeout("startTime()", 5000);
-}
-</script>
+  <body onload="startTime();">
+  <img id="img1" />
+  <script>
+  var imgArray = new Array("images/3.jpg","images/4.jpg","images/8.jpg");
+  var imgCount = 0;
+  function startTime() {
+      if(imgCount == imgArray.length) {
+          imgCount = 0;
+      }
+      document.getElementById("img1").src = imgArray[imgCount];
+      imgCount++;
+      setTimeout("startTime()", 5000);
+  }
+  </script>
 
 
-</center
+</center>
 
 
 
