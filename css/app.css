@@ -9,7 +9,7 @@ p {
 }
 p.test1 {
   width: 660px;
-border: 3px solid #9099a2;
+border: 1em solid #9099a2;
   word-break: keep-all;
 }
 p.test2 {
